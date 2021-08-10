@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function dafa_qr_code_theme($existing, $type, $theme, $path) {
+  return [
+    'dafa_qr_code' => [
+      'variables' => ['qrcodeUrl' => NULL],
+    ],
+  ];
+}

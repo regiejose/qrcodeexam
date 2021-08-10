@@ -1,0 +1,6 @@
+name: Dafa QR Code
+description: This modules provides you custom QR COde display block
+package: Custom
+
+type: module
+core: 8.x

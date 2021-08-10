@@ -1,0 +1,15 @@
+{
+    "name": "rjose/dafa_qr_code",
+    "description": "This will allow you to generate QR Code",
+    "type": "drupal-custom-module",
+    "require": {
+        "bacon/bacon-qr-code": "^2.0"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Regie Jose",
+            "email": "redzijose@gmail.com"
+        }
+    ]
+}

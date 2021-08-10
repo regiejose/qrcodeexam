@@ -1,0 +1,28 @@
+uuid: be4c3e6f-9e84-47c6-8284-2a486a9200fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - dafa_qr_code
+    - node
+  theme:
+    - bartik
+id: dafaqrcode
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: dafa_qrcode_block
+settings:
+  id: dafa_qrcode_block
+  label: 'Dafa QR Code'
+  provider: dafa_qr_code
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      products: products
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
